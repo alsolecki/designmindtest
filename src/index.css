@@ -10,4 +10,108 @@ body,
     height:100%;
     margin: 0;
     padding: 0;
+    background-color: rgb(21, 87, 93);
+}
+
+#a {
+    fill: none;
+    opacity: .5;
+    stroke: #939598;
+    stroke-miterlimit: 10;
+    position: absolute;
+    stroke-width: 0.5px;
+}
+
+.logo_container {
+    width: 300px;
+    height: 400px;
+    fill: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.brain_container {
+    width: 300px;
+    height: 400px;
+    fill: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#b {
+    position: absolute;
+}
+
+.white {
+    fill: white;
+}
+.blue {
+    fill: #6fccdb;
+}
+
+.yellow {
+    fill: #dadd5e;
+}
+
+.geartray {
+    display: flex;
+}
+
+#g {
+    position: absolute;
+    fill: rgba(128, 128, 128, 0.26);
+}
+
+.gear1 {
+    height: 180px;
+    width: 180px;
+    animation: rotate-animation 10s infinite linear;
+    top: 100px;
+    left: 200px;
+}
+
+.gear2 {
+    height: 80px;
+    width: 80px;
+    animation: rotate-animation 8s infinite linear;
+    top: 200px;
+}
+
+.gear3 {
+    height: 80px;
+    width: 80px;
+    animation: rotate-animation 8s infinite linear;
+    top: 300px;
+}
+
+.gear4 {
+    height: 80px;
+    width: 80px;
+    animation: rotate-animation 8s infinite linear;
+    top: 400px;
+}
+
+.gear5 {
+    height: 80px;
+    width: 80px;
+    animation: rotate-animation 8s infinite linear;
+    top: 500px;
+}
+.gear6 {
+    animation: rotate-animation 8s infinite linear;
+    top: 600px;
+}
+
+@keyframes rotate-animation {
+	0% {
+		transform: rotate(0deg);
+    }
+    50% {
+		transform: rotate(180deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
 }
